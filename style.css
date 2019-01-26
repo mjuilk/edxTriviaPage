@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+    color: black;
+    background-color: black;
+}
+
+#header {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: violet;
+    padding: 10px, 50px, 40px, 50px;
+    font-size: 300%;
+}
