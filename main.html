@@ -6,7 +6,7 @@
     <title>Trivia</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script src="script.js"></script>
+
 </head>
 <body>
     <span id = "header">
@@ -15,28 +15,30 @@
         </h1>
     </span>
     <div id = "quiz">
-        <h3 id = "question">
-
-        </h3>
+        <h3 id = "question"></h3>
         <div>
             <input type = "radio" name = "choices" value = "A">
-            <span id = "chA"></span>
+            <span id = "choiceA"></span>
         </div>
         <div>
             <input type = "radio" name = "choices" value = "B">
-            <span id = "chB"></span>
+            <span id = "choiceB"></span>
         </div>
         <div>
             <input type = "radio" name = "choices" value = "C">
-            <span id = "chC"></span>
+            <span id = "choiceC"></span>
         </div>
         <div>
             <input type = "radio" name = "choices" value = "D">
-            <span id = "chD"></span>
+            <span id = "choiceD"></span>
         </div>
+        <button id="submit">
+            Submit
+        </button>
+        <h3 id="quizStatus"></h3>
     </div>
 
-    <footer>
+    <footer id="options" style="display:none">
         <p>
             <a href = "main.html">Retake the quiz!</a>
         </p>
@@ -44,5 +46,6 @@
             <a href= "questions.html">Contribute to question set!</a>
         </p>
     </footer>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
